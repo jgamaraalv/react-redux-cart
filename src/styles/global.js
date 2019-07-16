@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
   * {
     margin: 0;
@@ -16,7 +16,8 @@ export default createGlobalStyle`
   }
 
   body,input,button {
-    font-size: 14px Roboto, sans-serif;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
   }
 
   #root {
