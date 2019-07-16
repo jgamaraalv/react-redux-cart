@@ -1,3 +1,9 @@
+To run this project it's necessary install json-server api.
+
+Example (if you use yarn): yarn global add json-server.
+
+After installation, run the api: json-server server.json -p 3333.
+
 In the project directory, you can run:
 
 ### `yarn install`
